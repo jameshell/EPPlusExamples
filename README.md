@@ -1,2 +1,2 @@
 # EPPlusExamples
-This repo will constain a series of examples of how to make excel reports using .Net Core.
+This repo will contain a series of examples of how to make excel reports using .Net Core.
