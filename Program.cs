@@ -1,4 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Data;
+using Newtonsoft.Json;
 using reportsInNetCore.models;
 using reportsInNetCore.utils;
 
@@ -8,12 +11,19 @@ namespace reportsInNetCore
     {
         public static void Main(string[] args)
         {
-            User user = new User("Jaime",324244,"Cra 16 #85-27", 25);
+            List<User> users = new List<User>(){
+                new User("Jaime",3242424,"Cra 16 #115", 25),
+                new User("Javier",3242444,"Cra 14 #74-32", 22),
+                new User("Eliana",3246244,"Cra 7 #80", 55)
+            };
+            
+            // We need to create a table to succesfully convert it to an excel table.
+            DataTable table = (DataTable)JsonConvert.DeserializeObject(JsonConvert.SerializeObject(users), (typeof(DataTable)));
 
             ExcelMethods utils = new ExcelMethods();
-            utils.userReports();
 
-            Console.WriteLine($"The user created is named: {user.Name}");
+            utils.userReports(table, "users.xlsx");
+
             Console.WriteLine($"The user report was created...");
         }
     }
