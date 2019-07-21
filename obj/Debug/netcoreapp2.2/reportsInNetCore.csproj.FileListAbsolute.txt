@@ -1,0 +1,11 @@
+/Users/jaimealonso/Documents/playground/reportsInNetCore/bin/Debug/netcoreapp2.2/reportsInNetCore.deps.json
+/Users/jaimealonso/Documents/playground/reportsInNetCore/bin/Debug/netcoreapp2.2/reportsInNetCore.runtimeconfig.json
+/Users/jaimealonso/Documents/playground/reportsInNetCore/bin/Debug/netcoreapp2.2/reportsInNetCore.runtimeconfig.dev.json
+/Users/jaimealonso/Documents/playground/reportsInNetCore/bin/Debug/netcoreapp2.2/reportsInNetCore.dll
+/Users/jaimealonso/Documents/playground/reportsInNetCore/bin/Debug/netcoreapp2.2/reportsInNetCore.pdb
+/Users/jaimealonso/Documents/playground/reportsInNetCore/obj/Debug/netcoreapp2.2/reportsInNetCore.csprojAssemblyReference.cache
+/Users/jaimealonso/Documents/playground/reportsInNetCore/obj/Debug/netcoreapp2.2/reportsInNetCore.csproj.CoreCompileInputs.cache
+/Users/jaimealonso/Documents/playground/reportsInNetCore/obj/Debug/netcoreapp2.2/reportsInNetCore.AssemblyInfoInputs.cache
+/Users/jaimealonso/Documents/playground/reportsInNetCore/obj/Debug/netcoreapp2.2/reportsInNetCore.AssemblyInfo.cs
+/Users/jaimealonso/Documents/playground/reportsInNetCore/obj/Debug/netcoreapp2.2/reportsInNetCore.dll
+/Users/jaimealonso/Documents/playground/reportsInNetCore/obj/Debug/netcoreapp2.2/reportsInNetCore.pdb
