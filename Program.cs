@@ -14,7 +14,7 @@ namespace reportsInNetCore
             List<User> users = new List<User>(){
                 new User("Jaime",3242424,"Cra 16 #115", 25),
                 new User("Javier",3242444,"Cra 14 #74-32", 22),
-                new User("Eliana",3246244,"Cra 7 #80", 55)
+                new User("Eliana",3246644,"Cra 7 #80", 55)
             };
             
             // We need to create a table to succesfully convert it to an excel table.
